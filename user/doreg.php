@@ -46,7 +46,7 @@ if($okk){
         echo ' <script>alert("用户名已经被使用!")</script> ';
         echo " <script>window.location='reg.php';</script> " ;
     }
-    if(strlen($username)<7||strlen($username)>32){
+    if(strlen($username)<2||strlen($username)>32){
         $info_ok = 0;
         echo ' <script>alert("用户名长度错误!")</script> ';
         echo " <script>window.location='reg.php';</script> " ;
